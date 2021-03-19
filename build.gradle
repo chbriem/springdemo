@@ -19,7 +19,7 @@ configurations {
 }
 
 dependencies {
-	//implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.4.2'
 	implementation("org.springframework.boot:spring-boot-starter-jetty:2.4.2")
 	compileOnly("org.springframework.boot:spring-boot-devtools")
